@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fffaf0;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 600px;
+    background: white;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    text-align: center;
+}
